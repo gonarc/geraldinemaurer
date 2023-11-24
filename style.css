@@ -24,12 +24,12 @@ h3 {
   align-items: center;
   justify-content: space-around;
   width: 50%;
-  margin-right:5%;
+  margin-right: 5%;
 }
 .div_menu a {
   color: white;
   text-decoration: none;
-  font-weight:400;
+  font-weight: 400;
 }
 .barra_oferta {
   display: flex;
@@ -47,7 +47,8 @@ h3 {
 #primera_seccion {
   display: flex;
   width: 100%;
-  height: 100vh;
+  height: 76vh;
+  margin-bottom: 60px;
 }
 #primera_seccion h1 {
   font-size: 40px;
@@ -73,7 +74,7 @@ h3 {
   margin: 24px 16px;
   text-align: start;
   font-size: 18px;
-  font-weight: 500;
+  color: #818181;
 }
 
 #primera_seccion h1 {
@@ -91,14 +92,12 @@ p,
 #banner {
   display: flex;
   justify-content: center;
-  height: 75%;
   width: 100%;
   margin: 40px 0px;
 }
 #banner img {
-  width: 48rem;
-  height: 28rem;
   border-radius: 8px;
+  border: solid 4px #aa833c;
 }
 #containerBotones {
   display: flex;
@@ -107,11 +106,11 @@ p,
   align-items: center;
   width: 100%;
 }
-#cta_menu{
-    padding: 12px;
+#cta_menu {
+  padding: 12px;
 }
 .cta_primera_pagina {
-  padding: 21px;
+  padding: 8px;
   margin-left: 16px;
   background: rgb(97, 76, 45);
   background: linear-gradient(
@@ -188,7 +187,6 @@ p,
 }
 
 #novena_seccion {
-  background-color: blanchedalmond;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -204,9 +202,193 @@ p,
 #footer {
   display: flex;
   justify-content: center;
-  background-color: blueviolet;
 }
 
 #footer a img {
   width: 100px;
+}
+
+/*Segunda seccion*/
+#segunda_seccion {
+  width: 100%;
+  margin-bottom: 60px;
+}
+#segunda_seccion h2 {
+  font-size: 40px;
+  font-weight: 800;
+  background: radial-gradient(#aa833c, #61533a);
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+#segunda_seccion p {
+  font-family: "Montserrat", sans-serif;
+  width: 80%;
+  font-weight: 500;
+  margin: auto;
+  font-size: 24px;
+  line-height: 37px;
+}
+
+/*tercer seccion*/
+#tercera_seccion {
+  width: 100%;
+  margin-bottom: 60px;
+}
+#tercera_seccion h2 {
+  font-size: 40px;
+  font-weight: 800;
+  background: radial-gradient(#aa833c, #61533a);
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+#tercera_seccion p {
+  font-family: "Montserrat", sans-serif;
+  width: 80%;
+  font-weight: 500;
+  margin: auto;
+  margin-bottom: 30px;
+  font-size: 24px;
+  line-height: 37px;
+}
+
+/*cuarta_seccion*/
+#cuarta_seccion {
+  width: 100%;
+  margin-bottom: 60px;
+}
+#cuarta_seccion h2 {
+  font-size: 40px;
+  font-weight: 800;
+  background: radial-gradient(#aa833c, #61533a);
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+#cuarta_seccion p {
+  font-family: "Montserrat", sans-serif;
+  width: 80%;
+  font-weight: 500;
+  margin: auto;
+  font-size: 24px;
+  line-height: 37px;
+}
+
+/*quinta_seccion*/
+#quinta_seccion {
+  width: 100%;
+  margin-bottom: 60px;
+}
+#quinta_seccion h2 {
+  font-size: 40px;
+  font-weight: 800;
+  background: radial-gradient(#aa833c, #61533a);
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+#quinta_seccion p {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*sexta_seccion*/
+#sexta_seccion {
+  width: 100%;
+  margin-bottom: 60px;
+}
+#sexta_seccion h2 {
+  font-size: 40px;
+  font-weight: 800;
+  background: radial-gradient(#aa833c, #61533a);
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+#sexta_seccion p {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*septima_seccion*/
+#septima_seccion {
+  width: 100%;
+  margin-bottom: 60px;
+}
+#septima_seccion h2 {
+  font-size: 40px;
+  font-weight: 800;
+  background: radial-gradient(#aa833c, #61533a);
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+#septima_seccion p {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*octava_seccion*/
+#octava_seccion {
+  display: flex;
+  width: 100%;
+  margin-bottom: 60px;
+  height: 75vh;
+}
+#container_calendario_boton {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  margin-right:5%;
+}
+#calendario{
+  width: 100%;
+    height:100%;
+    background-color: aqua;
+    margin-bottom: 30px;
+}
+#cta1_octava_pagina{
+margin-left: 10%;
+}
+#cta_octava_pagina{
+  width: 166px;
+}
+#octava_seccion h2 {
+  text-align: start;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  font-size: 40px;
+  font-weight: 800;
+  background: radial-gradient(#aa833c, #61533a);
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+#octava_seccion p {
+  text-align: start;
+  font-family: "Montserrat", sans-serif;
+  width: 80%;
+  font-weight: 500;
+  margin: auto;
+  margin-bottom: 30px;
+  font-size: 24px;
+  line-height: 37px;
+}
+
+/*novena_seccion*/
+#novena_seccion {
+  width: 100%;
+  margin-bottom: 60px;
+}
+#novena_seccion h2 {
+  font-size: 40px;
+  font-weight: 800;
+  background: radial-gradient(#aa833c, #61533a);
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+#novena_seccion p {
+  font-family: "Montserrat", sans-serif;
 }
