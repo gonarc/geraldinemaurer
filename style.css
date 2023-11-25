@@ -391,7 +391,7 @@ p,
 }
 #container_testimonios_foto {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .container_testimonios_foto img {
   width: 250px;
