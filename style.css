@@ -2,7 +2,7 @@ body {
   background-color: white;
   margin: 0;
   padding: 0;
-  Font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 body h1,
 h2,
@@ -39,7 +39,8 @@ h3 {
   align-items: center;
   width: 100%;
   height: 50px;
-  background-color: #f2f2f2;
+  background: rgb(203,203,203);
+  background: linear-gradient(180deg, rgba(203,203,203,1) 0%, rgba(255,255,255,1) 100%);
 }
 .barra_oferta p {
   font-weight: 500;
@@ -82,7 +83,7 @@ h3 {
 
 #primera_seccion h1 {
   margin: 50px 0px;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 h2,
