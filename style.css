@@ -30,7 +30,7 @@ h3 {
 .div_menu a {
   color: white;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
 }
 .barra_oferta {
@@ -47,7 +47,7 @@ h3 {
   );
 }
 .barra_oferta p {
-  font-weight: 500;
+  font-weight: 300;
   margin: 0;
   text-align: center;
 }
@@ -216,7 +216,7 @@ p,
   margin: 0px 0px;
   margin-bottom: 30px;
   font-size: 21px;
-  font-weight: 500;
+  font-weight: 800;
   background: radial-gradient(#aa833c, #61533a);
 
   -webkit-text-fill-color: transparent;
@@ -241,7 +241,7 @@ p,
 }
 #segunda_seccion p {
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   margin: 0px 50px;
   font-size: 24px;
   line-height: 50px;
@@ -265,7 +265,7 @@ p,
 }
 #tercera_seccion p {
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   margin: 0px 50px;
   margin-bottom: 30px;
   font-size: 24px;
