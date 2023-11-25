@@ -138,26 +138,6 @@ p,
 }
 
 
-
-
-
-#container_preguntas {
-  background-color: blanchedalmond;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#footer {
-  background-color: #aa833c;
-  display: flex;
-  justify-content: center;
-}
-
-#footer a img {
-  width: 100px;
-}
-
 /*APARECE EN*/
 .aparece_en {
   background-color: #F3F3F3;
@@ -498,19 +478,21 @@ p,
   margin-bottom:50px;
 }
 
+
+
 /*novena_seccion*/
 
 #novena_seccion {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background-color: aqua;
   width: 100%;
   margin-bottom: 60px;
 }
 #novena_seccion h2 {
   font-size: 40px;
   font-weight: 800;
+  margin-top: 0px;
+  margin-bottom: 32px;
   background: radial-gradient(#aa833c, #61533a);
 
   -webkit-text-fill-color: transparent;
@@ -519,3 +501,41 @@ p,
 #novena_seccion p {
   font-family: "Montserrat", sans-serif;
 }
+#container_preguntas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pregunta{
+  background-color: #F3F3F3;
+  width: 50%;
+  padding:16px;
+  margin: 16px;
+  border-radius: 8px;
+  box-shadow: 1px 2px 10px 1px;
+}
+.pregunta p{
+  text-align: start;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 16px;
+  background-color: black;
+}
+.contactos{
+  margin: auto;
+  margin-top: 25px;
+}
+#footer a img {
+  width: 60px;
+  margin: 0px 25px;
+}
+.copy{
+  margin-top: 60px;
+  font-weight: 300;
+  color: white;
+}
+
