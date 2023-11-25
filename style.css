@@ -1,3 +1,4 @@
+
 body {
   background-color: white;
   margin: 0;
@@ -39,8 +40,12 @@ h3 {
   align-items: center;
   width: 100%;
   height: 50px;
-  background: rgb(203,203,203);
-  background: linear-gradient(180deg, rgba(203,203,203,1) 0%, rgba(255,255,255,1) 100%);
+  background: rgb(203, 203, 203);
+  background: linear-gradient(
+    180deg,
+    rgba(203, 203, 203, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 .barra_oferta p {
   font-weight: 500;
@@ -221,70 +226,91 @@ p,
 /*Segunda seccion*/
 
 #segunda_seccion {
-  background-color: blanchedalmond;
   width: 100%;
-  margin-bottom: 60px;
+  margin-bottom:8px;
 }
 #segunda_seccion h2 {
   font-size: 40px;
   font-weight: 800;
+  margin: 0px 50px;
+  margin-bottom:30px;
   background: radial-gradient(#aa833c, #61533a);
 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
 #segunda_seccion p {
-  font-family: "Montserrat", sans-serif;
-  width: 80%;
-  font-weight: 500;
-  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:500;
+  margin:0px 50px;
   font-size: 24px;
-  line-height: 37px;
+  line-height:50px;
+  text-align: start;
 }
 
 /*tercer seccion*/
 #tercera_seccion {
-  background-color: blue;
   width: 100%;
-  margin-bottom: 60px;
+  margin-bottom:90px;
 }
 #tercera_seccion h2 {
   font-size: 40px;
   font-weight: 800;
   background: radial-gradient(#aa833c, #61533a);
+  margin: 0px 50px;
+  margin-bottom:30px;
 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
 #tercera_seccion p {
-  font-family: "Montserrat", sans-serif;
-  width: 80%;
-  font-weight: 500;
-  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:500;
+  margin:0px 50px;
   margin-bottom: 30px;
   font-size: 24px;
-  line-height: 37px;
+  line-height:50px;
+  text-align: start;
 }
 
 /*cuarta_seccion*/
 #cuarta_seccion {
-  background-color: blueviolet;
+  background-color:black;
+  display: flex;
   width: 100%;
-  margin-bottom: 60px;
+  margin-bottom:50px;
+  padding:50px 0px;
+}
+.foto_mi_nombre img{
+  width:500px;
+  margin: 0px 50px;
+  border-radius: 8px;
+  border: solid 4px #aa833c;
+}
+.titulo_texto_cuarta_seccion{
+  display: flex;
+  flex-direction: column;
 }
 #cuarta_seccion h2 {
   font-size: 40px;
   font-weight: 800;
-  background: radial-gradient(#aa833c, #61533a);
+  background: radial-gradient(#e7b456, #8a7653);
+  margin: 0px 50px;
+  margin-left: 0px;
+  margin-bottom:30px;
+  text-align: start;
 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
 #cuarta_seccion p {
+  color: white;
   font-family: "Montserrat", sans-serif;
-  width: 80%;
-  font-weight: 500;
-  margin: auto;
+  text-align: start;
+  margin:0px 50px;
+  margin-left: 0px;
+  margin-bottom: 60px;
+  font-weight: 300;
   font-size: 24px;
   line-height: 37px;
 }
