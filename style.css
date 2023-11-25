@@ -304,9 +304,9 @@ p,
 }
 #container_tarjetas {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
-  margin: 0px;
+  margin: 0px 50px;
 }
 .cta_quinta_pagina {
   margin: auto;
@@ -336,9 +336,9 @@ p,
   border: solid #A07C3C 1px;
   border-radius: 8px;
   display: flex;
-  width:40%;
+  width: 40%;
   padding: 8px;
-  margin:8px 30px;
+  margin:16px 0px;
 }
 
 .texto_tarjeta {
@@ -391,7 +391,7 @@ p,
 }
 #container_testimonios_foto {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .container_testimonios_foto img {
   width: 250px;
@@ -438,7 +438,8 @@ p,
 
 #container_todos_servicios {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 0px 50px;
 }
 
 #container_todos_servicios h3 {
