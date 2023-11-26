@@ -596,7 +596,81 @@ p,
 
 /* RESPONSIVE*/
 @media only screen and (max-width: 480px) {
-  .container{
-    background-color: #818181;
+  .menu {
+  display: none;
   }
+  #primera_seccion{
+    height: none;
+  }
+  #segunda_seccion p{
+    margin: 0px;
+  }
+#tercera_seccion h2 ,#tercera_seccion p{
+  margin: 0px;
+
+}
+#cuarta_seccion{
+  flex-direction: column;
+  height:100%;
+}
+#subtitulo_quinta_seccion{
+  margin: 0px;
+}
+#parrafo_quinta_seccion{
+  margin: 0px;
+}
+#container_tarjetas{
+  flex-direction: column;
+  margin: 0px;
+}
+.tarjeta_quinta_seccion{
+  flex-direction: column;
+  width: 100%;
+}
+#container_tarjetas img{
+  margin: auto;
+}
+
+#sexta_seccion h2{
+  margin: 0px;
+}
+#sexta_seccion p{
+  margin: 0px;
+}
+#container_testimonios_foto{
+  flex-direction: column;
+}
+
+.seccion_bonus h2{
+  margin: 0px;
+}
+.seccion_bonus{
+  padding: 0px;
+}
+
+#septima_seccion h2{
+  margin: 0px;
+}
+
+#container_todos_servicios{
+   flex-direction: column;
+  margin: 0px;
+
+}
+
+#octava_seccion{
+  flex-direction: column;
+  padding: 0px;
+  height:100%;
+  margin: 0px;
+}
+#calendario{
+  height:20em;
+}
+
+.pregunta{ 
+  width: 100%;
+}
+
+
 }
