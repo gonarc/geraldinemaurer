@@ -649,6 +649,24 @@ display: none;
   flex-direction: column;
   width: 100%;
 }
+.texto_tarjeta{
+  margin: 0px;
+  padding: 0px;
+}
+#tarjeta1{
+  margin: 0px;
+  padding: 0px;
+}
+#tarjeta2{
+  margin: 0px;
+  padding: 0px;
+}#tarjeta3{
+  margin: 0px;
+  padding: 0px;
+}#tarjeta4{
+  margin: 0px;
+  padding: 0px;
+}
 #container_tarjetas img{
   margin: auto;
 }
