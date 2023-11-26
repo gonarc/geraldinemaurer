@@ -599,9 +599,20 @@ p,
   .menu {
   display: none;
   }
-  #primera_seccion{
-    height: none;
+
+  #banner img{
+display: none;
   }
+
+  #primera_seccion{
+    height: 100%;
+    flex-direction: column;
+  }
+  .textos_Primera_seccion{
+    width: 100%;
+    margin: 0px;
+  }
+
   #segunda_seccion p{
     margin: 0px;
   }
