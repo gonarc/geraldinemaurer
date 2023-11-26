@@ -123,7 +123,8 @@ p,
   padding: 12px;
 }
 .cta_primera_pagina {
-  background: rgb(97, 76, 45);
+
+/*  background: rgb(97, 76, 45);
   background: linear-gradient(
     148deg,
     rgba(97, 76, 45, 1) 0%,
@@ -133,7 +134,7 @@ p,
   text-decoration: none;
   border-radius: 8px;
   padding: 15px;
-  font-size: 20px;
+  font-size: 20px;*/
 }
 #boton_cursos {
   margin-left: 16px;
@@ -607,12 +608,19 @@ display: none;
   }
   #imagen_responsive_primera_seccion{
     display: inline;
-    height: 16em;
+    height: 17em;
   }
 
   #primera_seccion{
     height: 100%;
     flex-direction: column;
+  }
+  #primera_seccion h1{
+    width: 100%;
+    text-align: center;
+  }
+  .textos_Primera_seccion h2{
+    text-align: center;
   }
   .textos_Primera_seccion{
     width: 100%;
@@ -702,6 +710,16 @@ display: none;
   padding: 0px;
   height:100%;
   margin: 0px;
+}
+#octava_seccion h2{
+  width: 100%;
+  text-align: center;
+
+}
+#octava_seccion p{
+  width: 95%;
+  margin: auto;
+  text-align: center;
 }
 #calendario{
   height:20em;
