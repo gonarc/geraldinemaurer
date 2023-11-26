@@ -55,7 +55,7 @@ h3 {
   height: 77vh;
   margin-bottom: 5vh;
 }
-#imagen_responsive_primera_seccion{
+.container_imagen_responsive_primera_pagina{
   display: none;
 }
 #primera_seccion h1 {
@@ -598,7 +598,7 @@ p,
 
 
 /* RESPONSIVE*/
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width:700px) {
   .menu {
   display: none;
   }
@@ -607,9 +607,13 @@ p,
 display: none;
   }
   #imagen_responsive_primera_seccion{
-    display: inline;
-    height: 17em;
+    width: 100%;
   }
+  .container_imagen_responsive_primera_pagina{
+    display:flex;
+    width: 100%;
+  }
+
 
   #primera_seccion{
     height: 100%;
