@@ -621,7 +621,7 @@ p,
 
   }
 
-  #banner img{
+  #banner{
 display: none;
   }
   #imagen_responsive_primera_seccion{
@@ -631,7 +631,9 @@ display: none;
     display:flex;
     width: 100%;
   }
-
+  #containerBotones{
+    margin: 25px 8px;
+  }
 
   #primera_seccion{
     height: 100%;
@@ -648,17 +650,37 @@ display: none;
     width: 100%;
     margin: 0px;
   }
-
-  #segunda_seccion p{
+  .textos_Primera_seccion p{
+    text-align: center;
+    margin: 25px 8px;
+  }
+  .aparece_en img{
+    width: 18%;
+  }
+  #segunda_seccion h2{
     margin: 0px;
+    margin-bottom: 25px;
+  }
+  #segunda_seccion p{
+    margin: 25px 8px;
+    text-align: center;
   }
 #tercera_seccion h2 ,#tercera_seccion p{
-  margin: 0px;
+  margin:25px 0px;
+  text-align: center;
 
 }
 #cuarta_seccion{
   flex-direction: column;
   height:100%;
+}
+#cuarta_seccion h2{
+  margin: 25px 0px;
+  text-align: center;
+}
+#cuarta_seccion p{
+  text-align: center;
+  margin: 25px 8px;
 }
 .foto_mi_nombre img{
   margin: 0px;
@@ -676,7 +698,7 @@ display: none;
 }
 .tarjeta_quinta_seccion{
   flex-direction: column;
-  width: 100%;
+  width:98%;
 }
 .texto_tarjeta{
   margin: 0px;
@@ -704,7 +726,7 @@ display: none;
   margin: 0px;
 }
 #sexta_seccion p{
-  margin: 0px;
+  margin: 25px 8px;
 }
 #container_testimonios_foto{
   flex-direction: column;
@@ -748,7 +770,7 @@ display: none;
 }
 
 .pregunta{ 
-  width: 100%;
+  width: 98%;
   padding: 0px;
 }
 
