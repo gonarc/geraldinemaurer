@@ -140,18 +140,17 @@ p,
 
 /*APARECE EN*/
 .aparece_en {
-  background-color: #F3F3F3;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content:space-around;
   align-items: center;
   padding:50px 0px;
   margin-bottom: 60px;
 }
 .aparece_en img {
-  width: 40%;
+  width:8%;
+  border-radius: 100%;
 }
-.aparece_en p {
+#parrafo_aparece_en {
   margin: 0px 0px;
   margin-bottom: 30px;
   font-size: 21px;
@@ -562,7 +561,11 @@ p,
 }
 .contactos{
   margin: auto;
-  margin-top: 25px;
+  margin-top:25px;
+  margin-bottom:50px;
+}
+#menu_footer{
+  margin:auto;
 }
 #footer a img {
   width: 60px;
@@ -574,3 +577,26 @@ p,
   color: white;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE*/
+@media only screen and (max-width: 480px) {
+  .container{
+    background-color: #818181;
+  }
+}
