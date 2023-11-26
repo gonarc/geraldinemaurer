@@ -47,7 +47,7 @@ h3 {
   );
 }
 .barra_oferta p {
-  font-weight: 300;
+  font-weight:500;
   margin: 0;
   text-align: center;
 }
@@ -379,6 +379,41 @@ p,
   border: solid 1px #e7b456;
   border-radius: 8px;
 }
+
+/* SECCION BONUS*/
+.seccion_bonus{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 50px;
+}
+.seccion_bonus h2{
+  font-size: 50px;
+  color: #F60000;
+  margin: 0px 50px;
+}
+.texto_parrafo_1{
+  font-weight: 300;
+  font-size:18px;
+  color: white;
+}
+.texto_parrafo_2{
+  color: white;
+  font-size:25px;
+}
+.texto_parrafo_2_2{
+  font-size:25px;
+  font-weight: 800;
+  color: white;
+}
+#parrafo_gratis{
+  font-size: 25px;
+  font-weight: 800;
+  color: #00F700;
+}
+
+
 
 /*septima_seccion*/
 #septima_seccion {
