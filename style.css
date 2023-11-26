@@ -56,6 +56,9 @@ h3 {
   height: 77vh;
   margin-bottom: 5vh;
 }
+#imagen_responsive_primera_seccion{
+  display: none;
+}
 #primera_seccion h1 {
   width: 85%;
   margin: 50px 0px;
@@ -603,6 +606,10 @@ p,
   #banner img{
 display: none;
   }
+  #imagen_responsive_primera_seccion{
+    display: inline;
+    height: 17em;
+  }
 
   #primera_seccion{
     height: 100%;
@@ -624,6 +631,10 @@ display: none;
   flex-direction: column;
   height:100%;
 }
+.foto_mi_nombre img{
+  margin: 0px;
+}
+
 #subtitulo_quinta_seccion{
   margin: 0px;
 }
