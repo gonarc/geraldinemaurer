@@ -1,7 +1,7 @@
 body {
-  background-color: white;
-  margin: 0;
-  padding: 0;
+  background-color: rgb(219, 36, 36);
+  margin: 0px;
+  padding: 0px;
   font-family: "Montserrat", sans-serif;
 }
 body h1,
@@ -608,7 +608,7 @@ display: none;
   }
   #imagen_responsive_primera_seccion{
     display: inline;
-    height: 17em;
+    height: 16em;
   }
 
   #primera_seccion{
@@ -692,6 +692,7 @@ display: none;
 
 .pregunta{ 
   width: 100%;
+  padding: 0px;
 }
 
 
