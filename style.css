@@ -687,8 +687,10 @@ p,
     font-size: 28px;
   }
   #segunda_seccion p {
-    margin: 25px 0px;
+    margin: 25px 8px;
     text-align: center;
+    font-size: 16px;
+    line-height:30px;
   }
   #tercera_seccion h2,
   #tercera_seccion p {
@@ -696,9 +698,10 @@ p,
     text-align: center;
   }
   #tercera_seccion p {
-    margin: 25px 0px;
-    font-size: 18px;
+    margin: 25px 8px;
     text-align: center;
+    font-size: 16px;
+    line-height:30px;
   }
   #tercera_seccion h2 {
     font-size: 28px;
