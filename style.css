@@ -689,8 +689,9 @@ p,
   #segunda_seccion p {
     margin: 25px 8px;
     text-align: center;
-    font-size: 16px;
+    font-size:18px;
     line-height:30px;
+    font-weight: 500;
   }
   #tercera_seccion h2,
   #tercera_seccion p {
@@ -700,8 +701,9 @@ p,
   #tercera_seccion p {
     margin: 25px 8px;
     text-align: center;
-    font-size: 16px;
+    font-size:18px;
     line-height:30px;
+    font-weight: 500;
   }
   #tercera_seccion h2 {
     font-size: 28px;
@@ -719,6 +721,7 @@ p,
     text-align: center;
     margin: 25px 0px;
     font-size: 18px;
+    font-weight: 500;
   }
   .foto_mi_nombre img {
     margin: 0px;
