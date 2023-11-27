@@ -623,13 +623,13 @@ p,
       rgba(101, 75, 40, 1) 0%,
       rgba(142, 118, 66, 1) 100%
     );
-    padding:8px;
+    padding:16px;
     border-radius:8px;
     text-decoration: none;
     color: white;
     font-weight: 500;
     text-align: center;
-    margin: 0px 16px;
+    margin: 0px 4px;
     font-size:14px;
 
   }
