@@ -769,25 +769,32 @@ p,
     width:100%;
   }
   .texto_tarjeta {
-    margin:16px 8px;
+    margin:25px 25px;
     padding: 0px;
   }
   #tarjeta1 {
-    margin: 25px 0px;
-    padding:16px 0px;
+    padding: 16px 0px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 12.5px;
   }
   #tarjeta2 {
-    margin: 25px 0px;
-    padding:16px 0px;
+    padding: 16px 0px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 12.5px;
   }
   #tarjeta3 {
-    margin: 25px 0px;
-    padding:16px 0px;
+    padding: 16px 0px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 12.5px;
   }
   #tarjeta4 {
-    margin: 25px 0px;
-    padding:16px 0px;
-    padding-bottom: 0px;
+    padding: 16px 0px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 12.5px;
   }
   #container_tarjetas img {
     margin: auto;
