@@ -749,12 +749,16 @@ p,
     margin: 0px;
   }
 
+
+  #quinta_seccion{
+    margin-bottom: 25px;
+  }
   #subtitulo_quinta_seccion {
-    margin: 0px;
+    margin: 25px 8px;
     font-size: 28px;
   }
   #parrafo_quinta_seccion {
-    margin: 0px;
+    margin: 25px 8px;
   }
   #container_tarjetas {
     flex-direction: column;
@@ -762,32 +766,35 @@ p,
   }
   .tarjeta_quinta_seccion {
     flex-direction: column;
-    width: 98%;
+    width:100%;
   }
   .texto_tarjeta {
-    margin: 0px;
+    margin:16px 8px;
     padding: 0px;
   }
   #tarjeta1 {
-    margin: 0px;
-    padding: 0px;
+    margin: 25px 0px;
+    padding:16px 0px;
   }
   #tarjeta2 {
-    margin: 0px;
-    padding: 0px;
+    margin: 25px 0px;
+    padding:16px 0px;
   }
   #tarjeta3 {
-    margin: 0px;
-    padding: 0px;
+    margin: 25px 0px;
+    padding:16px 0px;
   }
   #tarjeta4 {
-    margin: 0px;
-    padding: 0px;
+    margin: 25px 0px;
+    padding:16px 0px;
+    padding-bottom: 0px;
   }
   #container_tarjetas img {
     margin: auto;
   }
-
+  #sexta_seccion{
+    margin-bottom: 25px;
+  }
   #sexta_seccion h2 {
     margin: 0px;
     font-size: 28px;
@@ -796,20 +803,28 @@ p,
     margin: 25px 8px;
     font-size: 18px;
   }
+  .container_testimonio{
+    margin: 16px;
+  }
   #container_testimonios_foto {
     flex-direction: column;
   }
 
+  .seccion_bonus{
+    padding: 25px 0px;
+    margin-bottom: 25px;
+  }
   .seccion_bonus h2 {
     margin: 0px;
     font-size: 28px;
   }
-  .seccion_bonus {
-    padding: 0px;
-  }
 
+  #septima_seccion{
+    margin-bottom: 25px;
+  }
   #septima_seccion h2 {
-    margin: 0px;
+    margin: 0px 8px;
+    margin-bottom: 25px;
     font-size: 28px;
   }
 
@@ -817,17 +832,23 @@ p,
     flex-direction: column;
     margin: 0px;
   }
-
+  .container_servicio{
+    margin-bottom: 12.5px;
+  }
   #octava_seccion {
     flex-direction: column;
-    padding: 0px;
+    padding: 25px 0px;
     height: 100%;
-    margin: 0px;
+    margin-bottom: 25px;
   }
   #octava_seccion h2 {
     width: 100%;
     text-align: center;
     font-size: 28px;
+  }
+  #subtitulo_octava_seccion{
+    margin-bottom: 25px;
+
   }
   #octava_seccion p {
     width: 95%;
@@ -837,10 +858,34 @@ p,
   }
   #calendario {
     height: 20em;
+    margin-bottom: 25px;
+  }
+
+  #novena_seccion{
+    margin-bottom: 25px;
+  }
+
+  #novena_seccion h2{
+    font-size: 28px;
+    margin: 0px 8px;
+    margin-bottom: 25px;
   }
 
   .pregunta {
-    width: 98%;
+    width:95%;
     padding: 0px;
+    margin:12.5px 8px;
   }
-}
+  .pregunta h3, .pregunta p{
+    margin: 8px;
+  }
+  #footer a img{
+    width: 50px;
+  }
+  .div_menu{
+    display: none;
+  }
+  .copy{
+    margin: 0px 8px;
+  }
+  }
