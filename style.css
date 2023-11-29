@@ -694,17 +694,14 @@ p,
     margin: 0px;
   }
   .div_menu_responsive a {
-    margin: 0px 4px;
-    text-decoration: none;
-    color: white;
-    font-size:14px;
+    display: none;
   }
   .barra_oferta{
     background: white;
   }
   .barra_oferta p {
     background-color: white;
-    width: 100%;
+    width: 80%;
     font-size: 14px;
   }
 
