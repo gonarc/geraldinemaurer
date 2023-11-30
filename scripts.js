@@ -44,9 +44,14 @@ cerrarMenu.addEventListener("click", () => {
     duration: 2000,
     origin: "bottom",
   });
+  ScrollReveal().reveal(".containerBotones", {
+    duration: 3000,
+    origin: "bottom",
+  });
   ScrollReveal().reveal(".parrafo", {
     duration: 2500,
     origin: "bottom",
+    distance: "-50px",
   });
   ScrollReveal().reveal(".pregunta", {
     duration: 2000,
