@@ -37,3 +37,24 @@ cerrarMenu.addEventListener("click", () => {
   menu2.style.opacity= "0";
 });
 
+
+
+// EFECTO SCROLL
+ScrollReveal().reveal(".titulo_primera_seccion", {
+    duration: 2000,
+    origin: "rigth",
+    distance: "-100px",
+  });
+  ScrollReveal().reveal(".aparece_en", {
+    duration: 2000,
+    origin: "bottom",
+  });
+  ScrollReveal().reveal(".parrafo", {
+    duration: 2500,
+    origin: "bottom",
+  });
+  ScrollReveal().reveal(".pregunta", {
+    duration: 2000,
+    origin: "rigth",
+    distance: "-100px",
+  });
