@@ -26,6 +26,7 @@ h3 {
   width: 50%;
   margin-right: 5%;
 }
+
 .div_menu a {
   color: white;
   text-decoration: none;
@@ -35,6 +36,14 @@ h3 {
 .menu_responsive {
   display: none;
 }
+.container-nav-r {
+  display: none;
+}
+
+.icon-nav {
+  display: none;
+}
+
 .barra_oferta {
   display: flex;
   justify-content: center;
@@ -684,6 +693,63 @@ p,
   .menu {
     display: none;
   }
+  .container-nav-r {
+    display: flex;
+    flex-direction: column;
+    transition: all 0.6s;
+    position: absolute;
+    background-color:rgba(255, 255, 255, 0.274);
+    backdrop-filter: blur(1.17rem);
+    left: -500px;
+  }
+  .container-nav-r #menu2 {
+    position: relative;
+    width: 35px;
+    height: 32px;
+    margin-left: 15px;
+    top: -30px;
+    margin-top: -13px;
+    opacity: 0;
+    transition: ease-in-out 1s;
+  }
+  .container-nav-r .ul-nav-r {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33vw;
+    height: 150px;
+    padding: 15px 25px;
+    padding-right: 245px;
+    background-color: transparent;
+  }
+  .container-nav-r .ul-nav-r .li-nav-r .text-nav-r {
+    font-family: "Montserrat", sans-serif;
+    color: #a47f3c;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .icon-nav {
+    cursor: pointer;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 55px;
+    background-color: rgb(0, 0, 0);
+  }
+  .icon-nav i {
+    margin-left: 15px;
+  }
+  .icon-nav i #menu1 {
+    margin-top: 3px;
+    width:35px;
+    transition: ease-in-out 0.5s;
+  }
+
+
+
+
   .menu_responsive {
     display: flex;
     justify-content: center;
@@ -739,6 +805,11 @@ p,
     margin: 0px 4px;
     font-size:14px;
 
+  }
+  .cta_primera_pagina_responsive{
+    padding: 8px;
+    margin-bottom: 25px;
+    border: none;
   }
   .cta_tercera_pagina{
     background: rgb(101, 75, 40);
