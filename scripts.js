@@ -42,7 +42,7 @@ cerrarMenu.addEventListener("click", () => {
 // EFECTO SCROLL
 ScrollReveal().reveal(".titulo_primera_seccion", {
     duration: 2000,
-    origin: "rigth",
+    origin: "bottom",
     distance: "-100px",
   });
   ScrollReveal().reveal(".aparece_en", {
