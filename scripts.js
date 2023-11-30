@@ -40,11 +40,6 @@ cerrarMenu.addEventListener("click", () => {
 
 
 // EFECTO SCROLL
-ScrollReveal().reveal(".titulo_primera_seccion", {
-    duration: 2000,
-    origin: "bottom",
-    distance: "-100px",
-  });
   ScrollReveal().reveal(".aparece_en", {
     duration: 2000,
     origin: "bottom",
