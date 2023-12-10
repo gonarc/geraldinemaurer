@@ -149,7 +149,7 @@ p,
 #containerBotones_tercera_pagina{
   display: flex;
   width: 100%;
-  justify-content: center;
+  justify-content:start;
   align-items: center;
 }
 .cta_tercera_pagina{
@@ -422,16 +422,21 @@ p,
 
 /* SECCION BONUS*/
 .seccion_bonus {
-  background-color: black;
+  background: rgb(30,131,136);
+  background: linear-gradient(122deg, rgb(9, 50, 53) 0%, rgb(19, 93, 97) 100%);
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   padding: 60px 50px;
+}
+.div_bonus{
+  display: flex;
 }
 .seccion_bonus h2 {
   font-size: 50px;
   color: #f60000;
   margin: 0px 50px;
+  margin-left: 0px;
 }
 .texto_parrafo_1 {
   font-weight: 300;
@@ -446,11 +451,13 @@ p,
   font-size: 25px;
   font-weight: 800;
   color: white;
+  text-align: start;
 }
 #parrafo_gratis {
   font-size: 25px;
   font-weight: 800;
   color: #00f700;
+  text-align: start;
 }
 
 /*septima_seccion*/
