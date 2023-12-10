@@ -985,6 +985,10 @@ p,
     flex-direction: column;
   }
 
+
+
+
+  /* SECCION BONUS*/
   .seccion_bonus{
     padding: 25px 0px;
     margin-bottom: 25px;
@@ -992,7 +996,20 @@ p,
   .seccion_bonus h2 {
     margin: 0px;
     font-size: 28px;
+    text-align: center;
   }
+.div_bonus{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.texto_parrafo_2_2 {
+  font-size: 25px;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+}
+
 
   #septima_seccion{
     margin-bottom: 25px;
