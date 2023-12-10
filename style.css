@@ -149,7 +149,7 @@ p,
 #containerBotones_tercera_pagina{
   display: flex;
   width: 100%;
-  justify-content:start;
+  justify-content:center;
   align-items: center;
 }
 .cta_tercera_pagina{
@@ -269,7 +269,7 @@ p,
   width: 20em;
   margin: 0px 120px;
   border-radius: 8px;
-  border: solid 4px #30CFD6;
+  border: solid 4px #30ced67e;
 }
 .titulo_texto_cuarta_seccion {
   display: flex;
