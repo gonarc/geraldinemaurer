@@ -330,6 +330,10 @@ p,
   flex-wrap: wrap;
   margin: 0px 50px;
 }
+.parrafo_tarjeta{
+  font-weight: 500;
+
+}
 .cta_quinta_pagina {
   margin: auto;
   padding: 16px;
@@ -777,12 +781,8 @@ p,
     justify-content: center;
   }
   .cta_primera_pagina {
-    background: rgb(101, 75, 40);
-    background: linear-gradient(
-      122deg,
-      rgba(101, 75, 40, 1) 0%,
-      rgba(142, 118, 66, 1) 100%
-    );
+    background: rgb(30,131,136);
+    background: linear-gradient(122deg, rgba(30,131,136,1) 0%, rgba(48,207,214,1) 100%);
     padding:16px;
     border-radius:8px;
     text-decoration: none;
@@ -799,12 +799,8 @@ p,
     border: none;
   }
   .cta_tercera_pagina{
-    background: rgb(101, 75, 40);
-    background: linear-gradient(
-      122deg,
-      rgba(101, 75, 40, 1) 0%,
-      rgba(142, 118, 66, 1) 100%
-    );
+    background: rgb(30,131,136);
+    background: linear-gradient(122deg, rgba(30,131,136,1) 0%, rgba(48,207,214,1) 100%);
     border-radius:8px;
     text-decoration: none;
     color: white;
