@@ -83,7 +83,6 @@ h3 {
 }
 .logo_responsive{
   display: none;
-  width:25em;
 }
 .textos_Primera_seccion {
   width: 80%;
@@ -774,7 +773,7 @@ p,
   }
   .logo_responsive{
     display:flex;
-    width:15em;
+    width:20em;
     margin: auto;
   }
 
@@ -1005,7 +1004,7 @@ p,
   }
   .seccion_bonus h2 {
     margin: 0px;
-    font-size: 28px;
+    font-size:50px;
     text-align: center;
   }
 .div_bonus{
