@@ -81,6 +81,10 @@ h3 {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
+.logo_responsive{
+  display: none;
+  width:18em;
+}
 .textos_Primera_seccion {
   width: 80%;
   margin: 0px;
@@ -768,6 +772,11 @@ p,
     width: 80%;
     font-size: 14px;
   }
+  .logo_responsive{
+    display:flex;
+    width:15em;
+    margin: auto;
+  }
 
   #banner {
     display: none;
@@ -842,6 +851,7 @@ p,
   .textos_Primera_seccion {
     width: 100%;
     margin: 0px;
+    margin-top: 25px;
   }
   .textos_Primera_seccion p {
     text-align: center;
