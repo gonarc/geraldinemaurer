@@ -499,10 +499,8 @@ p,
 }
 
 .container_servicio img {
-  width: 250px;
+  width: 220px;
   margin: auto;
-  border-radius: 8px;
-  border: solid 1px #30CFD6;
 }
 
 #container_todos_servicios {
@@ -513,6 +511,10 @@ p,
 
 #container_todos_servicios h3 {
   text-align: center;
+  background: radial-gradient(#30CFD6, #0000009f);
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 /*octava_seccion*/
