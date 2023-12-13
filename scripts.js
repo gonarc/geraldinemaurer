@@ -1,3 +1,11 @@
+document.addEventListener('DOMContentLoaded', function () {
+  // Obtén todas las preguntas y respuestas
+  const preguntas = document.querySelectorAll('.pregunta');
+
+  // Itera sobre cada pregunta
+  preguntas.forEach(function (pregunta) {
+    // Encuentra el botón de ver
+
 document.addEventListener('DOMContentLoaded', function() {
     const scrollLinks = document.querySelectorAll('.scroll-link');
 
@@ -16,6 +24,18 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+});
+const botonVer = pregunta.querySelector('h3');
+
+// Agrega un evento de clic al botón
+botonVer.addEventListener('click', function () {
+  // Encuentra la respuesta correspondiente a la pregunta
+  const respuesta = pregunta.querySelector('.respuesta');
+
+  // Alternar la visibilidad de la respuesta al hacer clic en el botón
+  respuesta.style.display = (respuesta.style.display === 'none' || respuesta.style.display === '') ? 'block' : 'none';
+});
+});
 });
 
 var menuHamburguesa = document.getElementById("id-icon-nav");
