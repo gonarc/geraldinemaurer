@@ -678,12 +678,7 @@ p,
   
 }
 .pregunta:hover{
-  background: rgba(203, 203, 203, 0.418);
-  background: linear-gradient(
-    180deg,
-    rgba(203, 203, 203, 0.438) 0%,
-    rgba(255, 255, 255, 1) 100%
-  transition: 0.5s all ;
+  transition: 0.5s all;
 
 }
 .cta_quinta_pagina:hover{
@@ -1104,7 +1099,7 @@ p,
     padding: 0px;
     margin:12.5px 8px;
   }
-  .pregunta h3, .pregunta p{
+  .pregunta h3, .respuesta{
     margin: 8px;
   }
   #footer a img{
