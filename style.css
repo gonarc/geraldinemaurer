@@ -437,14 +437,6 @@ p,
   transition: 0.5s all;
   opacity: 1;
 }
-.titulo_testimonio{
-  font-weight: 800;
-  background: radial-gradient(#30CFD6, #1e8388);
-
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-
-}
 
 .container_testimonio img {
   width: 350px;
