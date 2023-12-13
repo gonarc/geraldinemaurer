@@ -1112,12 +1112,16 @@ p,
   }
   .ver_mas{
     padding:16px;
-    padding-right: 0px;
+    padding-right: 16px;
     margin: 0px;
   }
+
   .pregunta h3, .respuesta{
     font-size: 16px;
     margin: 16px;
+  }
+  .pregunta h3{
+    margin-left: 0px;
   }
   #footer a img{
     width: 50px;
