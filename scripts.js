@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const preguntas = document.querySelectorAll('.pregunta');
 
   preguntas.forEach(function (pregunta) {
-    const botonVer = pregunta.querySelector('h3');
+    const botonVer = pregunta.querySelector('.ver_mas');
     const respuesta = pregunta.querySelector('.respuesta');
 
     botonVer.addEventListener('click', function () {
