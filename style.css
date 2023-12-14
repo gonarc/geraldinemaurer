@@ -413,6 +413,7 @@ p,
 .container_testimonio {
   position: relative;
   display: inline-block;
+  border: solid 1px #30CFD6;
 }
 
 .testimonio {
@@ -438,13 +439,12 @@ p,
   transition: 0.5s all;
   opacity: 1;
 }
-
 .container_testimonio img {
   width: 345px;
   height: 345px;
   margin: auto;
   border-radius:8px;
-  border: solid 1px #30CFD6;
+
 }
 
 
@@ -1034,8 +1034,8 @@ p,
     font-size: 28px;
   }
   #sexta_seccion p {
-    margin: 1px 1px;
-    padding: 17px 17px;
+    margin: 0px 0px;
+    padding: 16px 16px;
     font-size: 16px;
     font-weight: 500;
   }
