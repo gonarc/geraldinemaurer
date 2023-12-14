@@ -429,7 +429,6 @@ p,
   opacity: 0;
   transition: opacity 0.3s ease;
   margin: 0px;
-  border: solid 1px #30CFD6;
   border-radius:8px;
   z-index: 1; /* Asegura que el párrafo esté encima de la imagen */
   
@@ -1035,9 +1034,8 @@ p,
     font-size: 28px;
   }
   #sexta_seccion p {
-    width: 101%;
-    margin: 0px 0px;
-    padding: 16px 16px;
+    margin:1px;
+    padding: 17px 17px;
     font-size: 16px;
     font-weight: 500;
   }
