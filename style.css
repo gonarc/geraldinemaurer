@@ -812,6 +812,7 @@ p,
     display: none;
   }
   .barra_oferta{
+    display: none;
     background: white;
   }
   .barra_oferta p {
