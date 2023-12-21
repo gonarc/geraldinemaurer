@@ -1094,7 +1094,7 @@ p,
   }
   #octava_seccion {
     flex-direction: column;
-    padding: 25px 0px;
+    padding: 0px 8px;
     height: 100%;
     margin-bottom: 25px;
   }
@@ -1104,7 +1104,6 @@ p,
     font-size: 28px;
   }
   #subtitulo_octava_seccion{
-    height: 500px;
     margin-bottom: 25px;
 
   }
@@ -1115,7 +1114,6 @@ p,
     margin: auto;
   }
   #calendario {
-    height: 20em;
     margin-bottom: 25px;
   }
   .containerBotones_octava_pagina{
