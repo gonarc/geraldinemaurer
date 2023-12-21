@@ -1104,14 +1104,15 @@ p,
     font-size: 28px;
   }
   #subtitulo_octava_seccion{
+    height: 500px;
     margin-bottom: 25px;
 
   }
   #octava_seccion p {
     width: 95%;
-    margin: auto;
     text-align: center;
     font-size: 18px;
+    margin: auto;
   }
   #calendario {
     height: 20em;
