@@ -472,22 +472,26 @@ p,
   font-weight: 300;
   font-size: 18px;
   color: white;
+  margin: 12.5px 8px;
 }
 .texto_parrafo_2 {
   color: white;
   font-size: 25px;
+  margin: 0px 8px;
 }
 .texto_parrafo_2_2 {
   font-size: 25px;
   font-weight: 800;
   color: white;
   text-align: center;
+  margin-bottom: 0px;
 }
 #parrafo_gratis {
   font-size: 30px;
   font-weight: 800;
   color: #00f700;
   text-align: center;
+  margin: 0px 8px;
 }
 
 /*septima_seccion*/
@@ -735,6 +739,9 @@ p,
   .menu {
     display: none;
   }
+  #containerBotones_tercera_pagina{
+    margin-top: 25px;
+  }
   .container-nav-r {
     display: flex;
     flex-direction: column;
@@ -840,6 +847,7 @@ p,
   #containerBotones {
     margin-top: 0px;
     margin: 12.5px 0px;
+    margin-bottom: 0px;
     justify-content: center;
   }
   .cta_primera_pagina {
@@ -877,8 +885,9 @@ p,
     height: 100%;
     flex-direction: column;
     background-color: #f0f0f0;
-    padding: 25px 0px;
+    padding: 0px 0px;
     padding-top: 0px;
+    margin-bottom:12.5px;
   }
   #primera_seccion h1 {
     width: 100%;
@@ -935,7 +944,7 @@ p,
   }
 
   #tercera_seccion{
-    margin-bottom: 25px;
+    margin-bottom:60px;
   }
   #tercera_seccion h2,
   #tercera_seccion p {
@@ -956,7 +965,7 @@ p,
     flex-direction: column;
     height: 100%;
     margin-bottom: 25px;
-    padding:25px 0px;
+    padding:50px 0px;
   }
   #cuarta_seccion h2 {
     font-size: 28px;
@@ -979,10 +988,12 @@ p,
   }
   #subtitulo_quinta_seccion {
     margin: 25px 8px;
+    margin-bottom: 0px;
     font-size: 28px;
   }
   #parrafo_quinta_seccion {
-    margin: 25px 8px;
+    margin: 12.5px 8px;
+    margin-bottom: 25px;
   }
   #container_tarjetas {
     flex-direction: column;
@@ -1018,13 +1029,13 @@ p,
     padding: 16px 0px;
     width: 90%;
     margin: auto;
-    margin-bottom: 12.5px;
+    margin-bottom:8px;
   }
   #container_tarjetas img {
     margin: auto;
   }
   #sexta_seccion{
-    margin-bottom: 25px;
+    margin-bottom:41px;
   }
   #sexta_seccion h2 {
     margin: 0px;
@@ -1032,7 +1043,7 @@ p,
   }
   #sexta_seccion p {
     margin: 0px 0px;
-    padding: 16px 16px;
+    padding: 12.5px 16px;
     font-size: 16px;
     font-weight: 500;
   }
@@ -1041,6 +1052,7 @@ p,
   }
   #container_testimonios_foto {
     flex-direction: column;
+    margin: 9px 8px;
   }
   .container_testimonio img {
     width: 100%;
@@ -1054,8 +1066,9 @@ p,
 
   /* SECCION BONUS*/
   .seccion_bonus{
-    padding: 25px 8px;
-    margin-bottom: 25px;
+    padding: 50px 8px;
+  padding-bottom: 60px;
+    margin-bottom:0px;
   }
   .seccion_bonus h2 {
     margin: 0px;
@@ -1079,7 +1092,7 @@ p,
     margin-bottom: 25px;
   }
   #septima_seccion h2 {
-    margin: 0px 8px;
+    margin: 50px 8px;
     margin-bottom: 25px;
     font-size: 28px;
   }
@@ -1087,6 +1100,9 @@ p,
   #container_todos_servicios {
     flex-direction: column;
     margin: 0px;
+  }
+  #container_todos_servicios h3{
+    margin: 12.5px 8px;
   }
   .container_servicio{
     margin-bottom: 12.5px;
@@ -1101,14 +1117,14 @@ p,
     width: 100%;
     text-align: center;
     font-size: 28px;
-    margin-top: 25px;
+    margin: 25px 0px;
   }
   #subtitulo_octava_seccion{
     margin-bottom: 25px;
 
   }
   #octava_seccion p {
-    width: 95%;
+    width: 100%;
     text-align: center;
     font-size: 18px;
     margin: auto;
@@ -1126,7 +1142,7 @@ p,
 
   #novena_seccion h2{
     font-size: 28px;
-    margin: 0px 8px;
+    margin: 12.5px 8px;
     margin-bottom: 25px;
   }
 
