@@ -932,11 +932,11 @@ p,
 
   #segunda_seccion h2 {
     margin: 0px;
-    margin-bottom: 25px;
+    margin-bottom:12.5px;
     font-size: 28px;
   }
   #segunda_seccion p {
-    margin: 25px 8px;
+    margin: 0px 16px;
     text-align: center;
     font-size:18px;
     line-height:30px;
@@ -946,19 +946,16 @@ p,
   #tercera_seccion{
     margin-bottom:60px;
   }
-  #tercera_seccion h2,
   #tercera_seccion p {
-    margin: 25px 0px;
-    text-align: center;
-  }
-  #tercera_seccion p {
-    margin: 25px 8px;
+    margin:0px 16px;
     text-align: center;
     font-size:18px;
     line-height:30px;
     font-weight: 500;
   }
   #tercera_seccion h2 {
+    margin:50px 0px;
+    margin-bottom:12.5px;
     font-size: 28px;
   }
   #cuarta_seccion {
@@ -974,7 +971,7 @@ p,
   }
   #cuarta_seccion p {
     text-align: center;
-    margin: 0px 8px;
+    margin: 0px 16px;
     font-size: 18px;
     font-weight: 500;
   }
