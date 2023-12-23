@@ -944,7 +944,7 @@ p,
   }
 
   #tercera_seccion{
-    margin-bottom:60px;
+    margin-bottom:50px;
   }
   #tercera_seccion p {
     margin:0px 16px;
@@ -1064,7 +1064,6 @@ p,
   /* SECCION BONUS*/
   .seccion_bonus{
     padding: 50px 8px;
-  padding-bottom: 60px;
     margin-bottom:0px;
   }
   .seccion_bonus h2 {
@@ -1115,6 +1114,7 @@ p,
     text-align: center;
     font-size: 28px;
     margin: 25px 0px;
+    margin-top: 50px;
   }
   #subtitulo_octava_seccion{
     margin-bottom: 25px;
