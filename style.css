@@ -596,11 +596,12 @@ p,
   color: white;
   text-align: start;
   font-family: "Montserrat", sans-serif;
-  width: 90%;
+  width: 100%;
   font-weight: 300;
   font-size: 24px;
   line-height: 37px;
-  margin: 50px 0px;
+  margin: 50px 16px;
+  margin-left: 0px;
   margin-bottom: 50px;
 }
 
